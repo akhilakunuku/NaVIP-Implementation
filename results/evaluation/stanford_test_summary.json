@@ -1,0 +1,14 @@
+{
+  "dataset": "Stanford 2D-3D-S Area 3 Test Set",
+  "num_test_images": 559,
+  "successful_predictions": 559,
+  "failed_predictions": 0,
+  "mean_position_error_m": 6.358093738555908,
+  "median_position_error_m": 6.315718650817871,
+  "position_accuracy_025m_percent": 0.0,
+  "position_accuracy_050m_percent": 0.17889087656529518,
+  "position_accuracy_100m_percent": 1.2522361359570662,
+  "mean_orientation_error_deg": 67.46281433105469,
+  "median_orientation_error_deg": 56.00019073486328,
+  "best_checkpoint_evaluated": "results/models/navip_stanford_best.pth"
+}

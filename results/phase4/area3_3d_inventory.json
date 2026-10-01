@@ -1,0 +1,85 @@
+{
+  "dataset_name": "Stanford 2D-3D-Semantics (2D-3D-S)",
+  "area": "Area 3",
+  "3d_directory": "dataset/Stanford2D3D\\area_3\\3d",
+  "files": [
+    {
+      "filename": "camera_to_room.json",
+      "type": "JSON Mapping File",
+      "size_bytes": 4283,
+      "purpose": "Maps camera UUID string to room identifier (e.g. office_3_3, lounge_1_3)",
+      "mesh_pointcloud_semantic": "Metadata / Spatial Index",
+      "coordinate_info": "N/A",
+      "units": "N/A",
+      "room_info": "Contains room names for all 21 rooms in Area 3",
+      "wall_info": "Implicitly groups cameras by room enclosure",
+      "floor_info": "Identifies room level",
+      "walkable_derivable": true
+    },
+    {
+      "filename": "pointcloud.mat",
+      "type": "MATLAB Binary MAT Data File",
+      "size_bytes": 496800155,
+      "purpose": "High-density 3D point cloud of Area 3 containing 3D vertex coordinates, RGB colors, semantic element IDs, and camera positions",
+      "mesh_pointcloud_semantic": "Dense 3D Point Cloud with Semantic Labels",
+      "coordinate_info": "Stanford global 3D reference frame (X, Y, Z)",
+      "units": "Meters",
+      "room_info": "Semantic labels partition points into room categories",
+      "wall_info": "Wall points labeled with semantic ID",
+      "floor_info": "Floor points labeled with semantic ID",
+      "walkable_derivable": true
+    },
+    {
+      "filename": "rgb.obj",
+      "type": "Wavefront 3D OBJ Geometry File",
+      "size_bytes": 19946931,
+      "purpose": "3D surface mesh containing vertices, texture UV coordinates, and face definitions for visual rendering",
+      "mesh_pointcloud_semantic": "3D Surface Mesh (Textured RGB)",
+      "coordinate_info": "Stanford global 3D reference frame (X, Y, Z)",
+      "units": "Meters",
+      "room_info": "Full 3D mesh encompassing all 21 rooms",
+      "wall_info": "Wall surface mesh triangles included",
+      "floor_info": "Floor surface mesh triangles included",
+      "walkable_derivable": true
+    },
+    {
+      "filename": "rgb.mtl",
+      "type": "Material Library File",
+      "size_bytes": 30198,
+      "purpose": "Defines material properties and texture mapping references for rgb.obj",
+      "mesh_pointcloud_semantic": "Material Metadata",
+      "coordinate_info": "N/A",
+      "units": "N/A",
+      "room_info": "References texture image files in rgb_textures/",
+      "wall_info": "Visual textures",
+      "floor_info": "Visual textures",
+      "walkable_derivable": false
+    },
+    {
+      "filename": "semantic.obj",
+      "type": "Wavefront 3D OBJ Geometry File",
+      "size_bytes": 19933837,
+      "purpose": "3D surface mesh colored by semantic class (floor, wall, door, window, chair, table, ceiling)",
+      "mesh_pointcloud_semantic": "3D Surface Mesh (Semantic Categorization)",
+      "coordinate_info": "Stanford global 3D reference frame (X, Y, Z)",
+      "units": "Meters",
+      "room_info": "Explicit 3D semantic boundary meshes",
+      "wall_info": "Explicit wall meshes",
+      "floor_info": "Explicit floor plane meshes",
+      "walkable_derivable": true
+    },
+    {
+      "filename": "semantic.mtl",
+      "type": "Material Library File",
+      "size_bytes": 151608,
+      "purpose": "Defines RGB color codes for semantic categories (e.g., floor, wall, door, window)",
+      "mesh_pointcloud_semantic": "Semantic Color Metadata",
+      "coordinate_info": "N/A",
+      "units": "N/A",
+      "room_info": "Color definitions for room classes",
+      "wall_info": "Color definitions for walls",
+      "floor_info": "Color definitions for floors",
+      "walkable_derivable": false
+    }
+  ]
+}

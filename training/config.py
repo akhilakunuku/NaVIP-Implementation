@@ -1,0 +1,15 @@
+IMAGE_SIZE = 224
+
+BATCH_SIZE = 8
+
+LEARNING_RATE = 0.0001
+
+WEIGHT_DECAY = 0.0005
+
+EPOCHS = 200
+
+NUM_WORKERS = 0
+
+MODEL_NAME = "resnet50_posenet"
+
+CHECKPOINT_DIR = "results/models"

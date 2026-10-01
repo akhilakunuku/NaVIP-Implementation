@@ -1,0 +1,28 @@
+{
+  "pois": [
+    {
+      "id": "poi_01",
+      "name": "Location 1",
+      "sequence": "seq-03",
+      "node_id": 400
+    },
+    {
+      "id": "poi_02",
+      "name": "Location 2",
+      "sequence": "seq-03",
+      "node_id": 450
+    },
+    {
+      "id": "poi_03",
+      "name": "Location 3",
+      "sequence": "seq-03",
+      "node_id": 500
+    },
+    {
+      "id": "poi_04",
+      "name": "Location 4",
+      "sequence": "seq-03",
+      "node_id": 550
+    }
+  ]
+}

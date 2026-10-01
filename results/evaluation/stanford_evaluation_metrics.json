@@ -1,0 +1,10 @@
+{
+  "num_test_samples": 559,
+  "mean_position_error_m": 6.358093738555908,
+  "median_position_error_m": 6.315719127655029,
+  "position_accuracy_025m_percent": 0.0,
+  "position_accuracy_050m_percent": 0.17889087656529518,
+  "position_accuracy_100m_percent": 1.2522361359570662,
+  "mean_orientation_error_deg": 67.46281433105469,
+  "median_orientation_error_deg": 56.00019073486328
+}

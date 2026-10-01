@@ -1,0 +1,401 @@
+{
+  "lounge_2": {
+    "room_name": "lounge_2",
+    "bounds": [
+      4.207122,
+      12.978265,
+      -7.820005,
+      -2.814303
+    ],
+    "center": [
+      8.5926935,
+      -5.317154
+    ],
+    "dimensions_m": [
+      8.771143,
+      5.005701999999999
+    ],
+    "sample_count": 429,
+    "primary_split": "train"
+  },
+  "hallway_1": {
+    "room_name": "hallway_1",
+    "bounds": [
+      20.507401,
+      20.670376,
+      -9.882116,
+      -0.01485
+    ],
+    "center": [
+      20.588888500000003,
+      -4.9484829999999995
+    ],
+    "dimensions_m": [
+      0.16297499999999943,
+      9.867266
+    ],
+    "sample_count": 313,
+    "primary_split": "train"
+  },
+  "hallway_4": {
+    "room_name": "hallway_4",
+    "bounds": [
+      2.848008,
+      18.02231,
+      -0.288131,
+      0.324202
+    ],
+    "center": [
+      10.435159,
+      0.018035499999999982
+    ],
+    "dimensions_m": [
+      15.174302,
+      0.612333
+    ],
+    "sample_count": 411,
+    "primary_split": "train"
+  },
+  "WC_1": {
+    "room_name": "WC_1",
+    "bounds": [
+      0.049927,
+      1.074649,
+      1.673553,
+      7.187711
+    ],
+    "center": [
+      0.562288,
+      4.430632
+    ],
+    "dimensions_m": [
+      1.024722,
+      5.514158
+    ],
+    "sample_count": 129,
+    "primary_split": "train"
+  },
+  "WC_2": {
+    "room_name": "WC_2",
+    "bounds": [
+      12.274103,
+      13.216828,
+      1.26176,
+      7.097459
+    ],
+    "center": [
+      12.7454655,
+      4.1796095
+    ],
+    "dimensions_m": [
+      0.9427249999999994,
+      5.835699
+    ],
+    "sample_count": 181,
+    "primary_split": "train"
+  },
+  "office_6": {
+    "room_name": "office_6",
+    "bounds": [
+      22.169222,
+      24.870342,
+      -7.019124,
+      -6.808442
+    ],
+    "center": [
+      23.519782,
+      -6.9137830000000005
+    ],
+    "dimensions_m": [
+      2.7011199999999995,
+      0.21068199999999937
+    ],
+    "sample_count": 108,
+    "primary_split": "train"
+  },
+  "office_5": {
+    "room_name": "office_5",
+    "bounds": [
+      21.554668,
+      25.866116,
+      -4.28163,
+      -2.93087
+    ],
+    "center": [
+      23.710392,
+      -3.60625
+    ],
+    "dimensions_m": [
+      4.311448000000002,
+      1.3507599999999997
+    ],
+    "sample_count": 144,
+    "primary_split": "train"
+  },
+  "hallway_6": {
+    "room_name": "hallway_6",
+    "bounds": [
+      6.250639,
+      6.250639,
+      1.191646,
+      1.191646
+    ],
+    "center": [
+      6.250639,
+      1.191646
+    ],
+    "dimensions_m": [
+      0.0,
+      0.0
+    ],
+    "sample_count": 51,
+    "primary_split": "train"
+  },
+  "conferenceRoom_1": {
+    "room_name": "conferenceRoom_1",
+    "bounds": [
+      14.882559,
+      19.400846,
+      1.761457,
+      5.658658
+    ],
+    "center": [
+      17.1417025,
+      3.7100575
+    ],
+    "dimensions_m": [
+      4.518287000000001,
+      3.897201
+    ],
+    "sample_count": 258,
+    "primary_split": "train"
+  },
+  "office_10": {
+    "room_name": "office_10",
+    "bounds": [
+      18.038767,
+      18.066166,
+      -8.484774,
+      -6.109335
+    ],
+    "center": [
+      18.0524665,
+      -7.2970545
+    ],
+    "dimensions_m": [
+      0.027398999999999063,
+      2.375439
+    ],
+    "sample_count": 117,
+    "primary_split": "train"
+  },
+  "office_1": {
+    "room_name": "office_1",
+    "bounds": [
+      13.802719,
+      13.855364,
+      -14.587595,
+      -11.840105
+    ],
+    "center": [
+      13.829041499999999,
+      -13.21385
+    ],
+    "dimensions_m": [
+      0.05264500000000005,
+      2.747490000000001
+    ],
+    "sample_count": 122,
+    "primary_split": "train"
+  },
+  "office_2": {
+    "room_name": "office_2",
+    "bounds": [
+      16.749228,
+      17.001659,
+      -13.90218,
+      -9.846838
+    ],
+    "center": [
+      16.8754435,
+      -11.874509
+    ],
+    "dimensions_m": [
+      0.2524310000000014,
+      4.055342
+    ],
+    "sample_count": 110,
+    "primary_split": "train"
+  },
+  "storage_1": {
+    "room_name": "storage_1",
+    "bounds": [
+      20.048697,
+      20.048697,
+      -15.30484,
+      -15.30484
+    ],
+    "center": [
+      20.048697,
+      -15.30484
+    ],
+    "dimensions_m": [
+      0.0,
+      0.0
+    ],
+    "sample_count": 25,
+    "primary_split": "train"
+  },
+  "office_4": {
+    "room_name": "office_4",
+    "bounds": [
+      21.915642,
+      24.590502,
+      -1.03476,
+      0.230022
+    ],
+    "center": [
+      23.253072,
+      -0.402369
+    ],
+    "dimensions_m": [
+      2.6748600000000025,
+      1.2647819999999999
+    ],
+    "sample_count": 119,
+    "primary_split": "train"
+  },
+  "hallway_3": {
+    "room_name": "hallway_3",
+    "bounds": [
+      0.016883,
+      0.759267,
+      -0.033569,
+      0.090116
+    ],
+    "center": [
+      0.388075,
+      0.0282735
+    ],
+    "dimensions_m": [
+      0.742384,
+      0.123685
+    ],
+    "sample_count": 68,
+    "primary_split": "train"
+  },
+  "office_3": {
+    "room_name": "office_3",
+    "bounds": [
+      20.665548,
+      23.175123,
+      1.390663,
+      2.519463
+    ],
+    "center": [
+      21.9203355,
+      1.955063
+    ],
+    "dimensions_m": [
+      2.509574999999998,
+      1.1288
+    ],
+    "sample_count": 154,
+    "primary_split": "val"
+  },
+  "office_8": {
+    "room_name": "office_8",
+    "bounds": [
+      19.788424,
+      23.476564,
+      -14.495838,
+      -11.129754
+    ],
+    "center": [
+      21.632494,
+      -12.812795999999999
+    ],
+    "dimensions_m": [
+      3.6881400000000006,
+      3.366083999999999
+    ],
+    "sample_count": 228,
+    "primary_split": "val"
+  },
+  "lounge_1": {
+    "room_name": "lounge_1",
+    "bounds": [
+      5.752804,
+      7.640006,
+      3.1324,
+      7.363681
+    ],
+    "center": [
+      6.696405,
+      5.2480405
+    ],
+    "dimensions_m": [
+      1.8872019999999994,
+      4.231280999999999
+    ],
+    "sample_count": 178,
+    "primary_split": "val"
+  },
+  "office_7": {
+    "room_name": "office_7",
+    "bounds": [
+      22.289303,
+      24.885548,
+      -9.565175,
+      -8.838264
+    ],
+    "center": [
+      23.587425500000002,
+      -9.2017195
+    ],
+    "dimensions_m": [
+      2.5962449999999997,
+      0.7269109999999994
+    ],
+    "sample_count": 185,
+    "primary_split": "test"
+  },
+  "hallway_2": {
+    "room_name": "hallway_2",
+    "bounds": [
+      6.588905,
+      18.090178,
+      -9.85548,
+      -9.519667
+    ],
+    "center": [
+      12.339541500000001,
+      -9.6875735
+    ],
+    "dimensions_m": [
+      11.501273000000001,
+      0.3358129999999999
+    ],
+    "sample_count": 255,
+    "primary_split": "test"
+  },
+  "office_9": {
+    "room_name": "office_9",
+    "bounds": [
+      18.123711,
+      18.668203,
+      -3.455961,
+      -1.96054
+    ],
+    "center": [
+      18.395957,
+      -2.7082505
+    ],
+    "dimensions_m": [
+      0.5444919999999982,
+      1.495421
+    ],
+    "sample_count": 119,
+    "primary_split": "test"
+  }
+}
